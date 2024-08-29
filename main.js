@@ -14,18 +14,29 @@
 
 let randomNum = 0; // 랜덤번호
 let playButton = document.getElementById('play-Button')
-let userNumber = document.getElementById('user-Number')
+let userNumber = document.getElementById('user-Number') //유저가 입력한 번호
 let resultCheck = document.getElementById('result-Check')
+let resetButton = document.getElementById('reset-Button')
+let opportunity = 5; // 기회 숫자
+let gameOver = false;
+let opportunityCheck = document.getElementById('opportunity-Check') // 남은 기회 횟수
 
 playButton.addEventListener('click', playGame)
+resetButton.addEventListener('click', resetGame)
 
-function pickRandomNum() {
+function comRandomNum() {
     randomNum = Math.floor(Math.random() * 100) + 1;
     console.log(randomNum);
 }
 
+//게임 진행
 function playGame(){
     let userValue = userNumber.value;
+
+    opportunity--;
+    opportunityCheck.textContent= `남은 횟수: ${opportunity}`
+
+    console.log('기회 횟수' + opportunity)
     
     if(userValue == randomNum) {
         resultCheck.textContent = '맞추셨습니다! 축하합니다.'
@@ -34,6 +45,22 @@ function playGame(){
     } else if (userValue <= randomNum) {
         resultCheck.textContent = 'Down!'
     }
+
+    if(opportunity < 1) {
+        gameOver = true
+    }
+
+    if (gameOver == true) {
+        playButton.disabled = true
+        resultCheck.textContent = 'GameOver 못맞췄찌롱~'
+    }
 }
 
-pickRandomNum()
+//게임 리셋 
+function resetGame(){
+    userNumber.value = ''
+    comRandomNum()
+    resultCheck.textContent = '결과가 여기 나옵니다.'
+}
+
+comRandomNum()
