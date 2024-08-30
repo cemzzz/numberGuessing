@@ -20,9 +20,13 @@ let resetButton = document.getElementById('reset-Button')
 let opportunity = 5; // 기회 숫자
 let gameOver = false;
 let opportunityCheck = document.getElementById('opportunity-Check') // 남은 기회 횟수
+let prevNumber = [] // 이전에 유저가 입력한 번호 저장
 
 playButton.addEventListener('click', playGame)
 resetButton.addEventListener('click', resetGame)
+userNumber.addEventListener('focus', function(){
+    userNumber.value = '';
+})
 
 function comRandomNum() {
     randomNum = Math.floor(Math.random() * 100) + 1;
@@ -33,9 +37,18 @@ function comRandomNum() {
 function playGame(){
     let userValue = userNumber.value;
 
+    if(userValue < 1 || userValue > 100){
+        resultCheck.textContent= '1과 100사이에 숫자를 입력해 주세요'
+        return;
+    }
+
+    if (prevNumber.includes(userValue)){
+        resultCheck.textContent= '이미 입력한 숫자입니다. 다른 숫자를 입력해주세요'
+        return;
+    }
+    
     opportunity--;
     opportunityCheck.textContent= `남은 횟수: ${opportunity}`
-
     console.log('기회 횟수' + opportunity)
     
     if(userValue == randomNum) {
@@ -45,6 +58,8 @@ function playGame(){
     } else if (userValue <= randomNum) {
         resultCheck.textContent = 'Down!'
     }
+
+    prevNumber.push(userValue)
 
     if(opportunity < 1) {
         gameOver = true
@@ -61,6 +76,14 @@ function resetGame(){
     userNumber.value = ''
     comRandomNum()
     resultCheck.textContent = '결과가 여기 나옵니다.'
+    
+    if(gameOver == true || gameOver == false){
+        gameOver = false
+        playButton.disabled = false
+        opportunity = 5
+        opportunityCheck.textContent= '남은 횟수: 5'
+        prevNumber = []
+    }
 }
 
 comRandomNum()
