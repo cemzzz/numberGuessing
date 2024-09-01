@@ -62,11 +62,11 @@ function playGame(){
 
     prevNumber.push(userValue)
 
-    if(opportunity < 1) {
+    if(opportunity <= 0) {
         gameOver = true
     }
 
-    if (gameOver == true) {
+    if (gameOver == true && userValue != randomNum) {
         playButton.disabled = true
         resultCheck.textContent = 'GameOver 못맞췄찌롱~'
     }
