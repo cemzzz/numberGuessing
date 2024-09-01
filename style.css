@@ -24,7 +24,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    height: 80%;
+    height: 78%;
 }
 
 .result-text {
@@ -68,7 +68,7 @@ html, body {
 .footer {
     position: relative;
     bottom: 0;
-    height: 150px;
+    height: 100px;
     background-color: #212529;
     display: flex;
     flex-direction: column;

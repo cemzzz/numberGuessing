@@ -17,7 +17,7 @@ let playButton = document.getElementById('play-Button')
 let userNumber = document.getElementById('user-Number') //유저가 입력한 번호
 let resultCheck = document.getElementById('result-Check')
 let resetButton = document.getElementById('reset-Button')
-let opportunity = 5; // 기회 숫자
+let opportunity = 10; // 기회 숫자
 let gameOver = false;
 let opportunityCheck = document.getElementById('opportunity-Check') // 남은 기회 횟수
 let prevNumber = [] // 이전에 유저가 입력한 번호 저장
@@ -27,6 +27,14 @@ resetButton.addEventListener('click', resetGame)
 userNumber.addEventListener('focus', function(){
     userNumber.value = '';
 })
+
+//엔터 키 먹히게 작동
+userNumber.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        playGame(); // 엔터 키가 눌리면 playGame 함수 실행
+        userNumber.value = '';
+    }
+});
 
 function comRandomNum() {
     randomNum = Math.floor(Math.random() * 100) + 1;
@@ -81,8 +89,8 @@ function resetGame(){
     if(gameOver == true || gameOver == false){
         gameOver = false
         playButton.disabled = false
-        opportunity = 5
-        opportunityCheck.textContent= '남은 횟수: 5'
+        opportunity = 10
+        opportunityCheck.textContent= '남은 횟수: 10'
         prevNumber = []
     }
 }
