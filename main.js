@@ -53,6 +53,7 @@ function playGame(){
     
     if(userValue == randomNum) {
         resultCheck.textContent = '맞추셨습니다! 축하합니다.'
+        playButton.disabled = true
     } else if (userValue >= randomNum) {
         resultCheck.textContent = 'Up!'
     } else if (userValue <= randomNum) {
