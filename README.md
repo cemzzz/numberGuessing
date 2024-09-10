@@ -23,7 +23,7 @@ https://fascinating-liger-47adb2.netlify.app/
 
 # 📌 프로젝트 개요
 
-<h3> 메인 </h3>
+<h3> 메인 화면 </h3>
+![image](https://github.com/user-attachments/assets/19d83978-1865-4b6c-be00-6212e46a2619)
 
 
-</div>
