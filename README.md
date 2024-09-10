@@ -26,8 +26,9 @@ https://fascinating-liger-47adb2.netlify.app/
 <h3> 메인 화면 </h3>
 <img width="100%" src="https://github.com/user-attachments/assets/19d83978-1865-4b6c-be00-6212e46a2619"/>
 
+<h3> 동작 과정 </h3>
 
-<img width="100%" src=""/>
+<img width="100%" src="https://github.com/user-attachments/assets/60adabe4-4c0c-4fbb-9be3-2c6683788868"/>
 <img width="100%" src=""/>
 <img width="100%" src=""/>
 
