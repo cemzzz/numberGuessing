@@ -18,7 +18,8 @@ https://fascinating-liger-47adb2.netlify.app/
 # 개발 일지
 <div><a href="https://blog.naver.com/jhcemzzz/223563959233">개발 일지 - 1</a></div>
 <div><a href="https://blog.naver.com/jhcemzzz/223565149937">개발 일지 - 2</a></div>
-<div><a href="https://blog.naver.com/jhcemzzz/223568344452">개발 일지 - 3</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223566430764">개발 일지 - 3</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223568344452">개발 일지 - 4</a></div>
 
 
 # 📌 프로젝트 개요
