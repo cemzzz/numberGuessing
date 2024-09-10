@@ -3,7 +3,7 @@ TMDB 영화 API를 활용하여 리액트로 영화사이트 클론을 구현했
 
 
 # 🛠
-![javascript](https://img.shields.io/badge/React-02569B?style=for-the-badge&logo=React&logoColor=white)
+![javascript](https://img.shields.io/badge/Javascript-02569B?style=for-the-badge&logo=React&logoColor=white)
 
 
  
