@@ -44,7 +44,7 @@ https://fascinating-liger-47adb2.netlify.app/
  <img width="100%" src="https://github.com/user-attachments/assets/60adabe4-4c0c-4fbb-9be3-2c6683788868"/>
 </div>
 
-<div style="margin: 20px; 0px">
+<div style="margin: 100px 0px;">
   <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 </div>
 
