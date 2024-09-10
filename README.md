@@ -13,6 +13,7 @@
 <li>개인 프로젝트</li>
 
 # 개발 일지
+<a href="https://blog.naver.com/jhcemzzz/223563959233">개발 일지 - 1</a>
 <p>https://blog.naver.com/jhcemzzz/223563959233</p>
 <p>https://blog.naver.com/jhcemzzz/223565149937</p>
 <p>https://blog.naver.com/jhcemzzz/223568344452</p>
