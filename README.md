@@ -24,11 +24,23 @@ https://fascinating-liger-47adb2.netlify.app/
 # 📌 프로젝트 개요
 
 <h3> 메인 화면 </h3>
-<img width="100%" src="https://github.com/user-attachments/assets/19d83978-1865-4b6c-be00-6212e46a2619"/>
+<div>
+ 메인 화면 페이지의 모습입니다.
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/19d83978-1865-4b6c-be00-6212e46a2619"/>
+</div>
 
 <h3> 동작 과정 </h3>
+<div>
+ <p>내가 입력한 숫자 > 현재 랜덤 숫자인 경우 Down을 표시 </p>
+ <p>내가 입력한 숫자 < 현재 랜덤 숫자인 경우 Up을 표시 </p>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/60adabe4-4c0c-4fbb-9be3-2c6683788868"/>
+</div>
 
-<img width="100%" src="https://github.com/user-attachments/assets/60adabe4-4c0c-4fbb-9be3-2c6683788868"/>
+
 <img width="100%" src=""/>
 <img width="100%" src=""/>
 
