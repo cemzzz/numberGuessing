@@ -33,8 +33,8 @@ https://fascinating-liger-47adb2.netlify.app/
 
 <h3> 숫자 입력하는 과정 동작 </h3>
 <div>
- <p>내가 입력한 숫자 > 현재 랜덤 숫자인 경우 Down을 표시 </p>
- <p>내가 입력한 숫자 < 현재 랜덤 숫자인 경우 Up을 표시 </p>
+ <div>내가 입력한 숫자 > 현재 랜덤 숫자인 경우 Down을 표시 </div>
+ <div>내가 입력한 숫자 < 현재 랜덤 숫자인 경우 Up을 표시 </div>
 </div>
 <div>
  <img width="100%" src="https://github.com/user-attachments/assets/60adabe4-4c0c-4fbb-9be3-2c6683788868"/>
@@ -42,8 +42,8 @@ https://fascinating-liger-47adb2.netlify.app/
 
 <h3> 이미 입력했던 숫자를 다시 입력하는 경우 </h3>
 <div>
- <p>이미 입력한 숫자는 다시 입력할 수 없고 안내 문구가 출력됩니다. </p>
- <p>이 때는 남은 횟수가 소진되지 않게 처리했습니다.</p>
+ <div>이미 입력한 숫자는 다시 입력할 수 없고 안내 문구가 출력됩니다. </div>
+ <div>이 때는 남은 횟수가 소진되지 않게 처리했습니다.</div>
 </div>
 <div>
  <img width="100%" src="https://github.com/user-attachments/assets/97d18139-a8ed-4513-b3cd-985ca15a2d0c"/>
@@ -51,8 +51,8 @@ https://fascinating-liger-47adb2.netlify.app/
 
 <h3> 1부터 100이 아닌 다른 숫자를 입력하는 경우 </h3>
 <div>
- <p>범위 내 숫자 입력 시 입력되지 않고 안내 문구가 출력됩니다. </p>
- <p>이 때 또한 남은 횟수가 소진되지 않습니다.</p>
+ <div>범위 내 숫자 입력 시 입력되지 않고 안내 문구가 출력됩니다. </div>
+ <div>이 때 또한 남은 횟수가 소진되지 않습니다.</div>
 </div>
 <div>
  <img width="100%" src="https://github.com/user-attachments/assets/bdb65aa5-d8d9-434a-9321-43e861d97486"/>
@@ -60,11 +60,20 @@ https://fascinating-liger-47adb2.netlify.app/
 
 <h3> 숫자를 맞췄을 때 </h3>
 <div>
- <p>입력한 숫자와 랜덤 숫자가 일치할 경우 축하 문구가 출력됩니다. </p>
+ <div>입력한 숫자와 랜덤 숫자가 일치할 경우 축하 문구가 출력됩니다. </div>
 </div>
 <div>
  <img width="100%" src="https://github.com/user-attachments/assets/977e69e8-c532-41b1-b664-45cdb21d181c"/>
 </div>
 
+<h3> 다시 시작 기능 </h3>
+<div>
+ <div>숫자를 맞출 때나 게임 진행 중일 때 다시 시작할 수 있습니다.</div>
+ <div>다시 진행할 경우 남은 기회가 초기화됩니다.</div>
+ <div>다시 진행할 경우 이전 게임에 입력했던 숫자는 다시 입력할 수 있습니다.</div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/80fea5ba-ed64-4b88-ae23-4a4393d9b13f"/>
+</div>
 
 
